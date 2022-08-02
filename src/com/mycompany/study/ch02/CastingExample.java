@@ -33,9 +33,11 @@ public class CastingExample {
 		System.out.println(to1);
 		
 // ***************************************************************
+		// int -> string
 		String stringValue = String.valueOf(intValue);
 		System.out.println(stringValue);
 		
+		// string -> int
 		int intValue2 = Integer.parseInt(stringValue);
 		System.out.println(intValue2);
 // ***************************************************************
