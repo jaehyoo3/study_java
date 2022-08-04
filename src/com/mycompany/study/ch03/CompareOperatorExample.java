@@ -8,8 +8,8 @@ public class CompareOperatorExample {
 		int num2 = 2;
 		
 		boolean result = num == num2;
-		
 		System.out.println(result);
+		
 		boolean result2 = num != num2;
 		System.out.println(result2);
 		
