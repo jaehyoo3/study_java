@@ -15,6 +15,8 @@ public class ArithmeticOperatorExample {
 		double result7 = (double) y1/ y2;
 		System.out.println("+: "+result1+" , -: "+result2+", *: "+result3+", /: "+result4+" %: "+result5);
 		System.out.println("/: " +result6 + ", /: "+result7);
+		
+		
 	}
 
 }
