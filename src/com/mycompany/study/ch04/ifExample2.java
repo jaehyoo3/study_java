@@ -5,17 +5,28 @@ public class ifExample2 {
 	public static void main(String[] args) {
 		int grade = 5;
 		int price = 10000;
+		double percent, sale;
 		
 		if(grade == 1) {
-			System.out.println("등급: 일반, " + price + " (" + price*0.05 + ")  = (" + (price- price*0.05) + ")할인");
+			percent = 0.05;
+			sale = price - price * percent;
+			System.out.println("등급: 일반 || 원가: " + price + " || 할인가 " + (int)sale);
 		} else if(grade == 2) {
-			System.out.println("등급: 일반, " + price + " (" + price*0.10 + ")  = (" + (price- price*0.10) + ")할인");
+			percent = 0.10;
+			sale = price - price * percent;
+			System.out.println("등급: 브론즈 || 원가: " + price + " || 할인가 " + (int)sale);
 		} else if(grade == 3) {
-			System.out.println("등급: 일반, " + price + " (" + price*0.15 + ")  = (" + (price- price*0.15) + ")할인");
+			percent = 0.15;
+			sale = price - price * percent;
+			System.out.println("등급: 실버 || 원가: " + price + " || 할인가 " + (int)sale);
 		} else if(grade == 4) {
-			System.out.println("등급: 일반, " + price + " (" + price*0.20 + ")  = (" + (price- price*0.20) + ")할인");
+			percent = 0.20;
+			sale = price - price * percent;
+			System.out.println("등급: 골드 || 원가: " + price + " || 할인가 " + (int)sale);
 		} else if(grade == 5) {
-			System.out.println("등급: 일반, " + price + " (" + price*0.27 + ")  = (" + (price- price*0.27) + ")할인");
+			percent = 0.27;
+			sale = price - price * percent;
+			System.out.println("등급: 플레티넘 || 원가: " + price + " || 할인가 " + (int)sale);
 		}
 	}
 
