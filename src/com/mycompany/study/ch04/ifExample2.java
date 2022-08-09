@@ -4,7 +4,7 @@ public class ifExample2 {
 
 	public static void main(String[] args) {
 		int grade = 5;
-		int price = 10000;
+		int price = 1000;
 		double percent, sale;
 		
 		if(grade == 1) {
@@ -24,9 +24,11 @@ public class ifExample2 {
 			sale = price - price * percent;
 			System.out.println("등급: 골드 || 원가: " + price + " || 할인가 " + (int)sale);
 		} else if(grade == 5) {
-			percent = 0.27;
+			percent = 0.027;
 			sale = price - price * percent;
 			System.out.println("등급: 플레티넘 || 원가: " + price + " || 할인가 " + (int)sale);
+		} else {
+			System.out.println("등급이 존재하지 않습니다.");
 		}
 	}
 
