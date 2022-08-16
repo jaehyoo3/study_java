@@ -8,9 +8,9 @@ public class RandomSum {
 		double min = 1;
  		double max = 100;
 		int random = (int) ((Math.random() * (max-min))+min);
-		int random2 = (int) ((Math.random() * (max-min))+min);
-		System.out.println(na);
-		
+		int random3 = (int) ((Math.random() * (max-min))+min);
+		System.out.println(random);
+		System.out.println(random3);
 		int sum = 0;
 		int num1 = (int) (Math.random() * 100);
 		int num2 = (int) (Math.random() * 100);
