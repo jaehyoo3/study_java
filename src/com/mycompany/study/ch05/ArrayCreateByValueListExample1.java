@@ -10,6 +10,7 @@ public class ArrayCreateByValueListExample1 {
 		int sum = 0; 
 		double avg = 0;
 		
+		// {{3,2},{3,2},{3,2}} = 3/2
 		//String[] name = {"장원영", "장동건", "고소영"};
 		//System.out.println(score[0]);
 		//System.out.println(name[2]);
