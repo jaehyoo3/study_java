@@ -13,7 +13,7 @@ public class ArrayCreateByNewExample {
 		arr1[2] = 63;
 		
 		System.out.println("arr1[0]: " + arr1[0] + ", arr1[1]: " + arr1[1] + ", arr1[2]: " + arr1[2]);
-
+//  array: 동일 데이터/ 한정된 배열 / 0부터시작
 	}
 
 }
