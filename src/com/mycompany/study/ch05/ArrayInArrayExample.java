@@ -15,6 +15,18 @@ public class ArrayInArrayExample {
 		}
 		
 		System.out.println("---------------------------");
+		int[] sum2 = new int[3];
+		for(int i=0; i<score.length; i++) {
+			for(int j=0; j<score[i].length; j++) {
+				sum2[j] += score[i][j];
+			}
+		}
+		for(int i=0; i<sum2.length; i++) {
+			System.out.println((double)sum2[i]/score.length);
+		}
+	
+		
+		System.out.println("---------------------------");
 		
 		for(int i=0; i<3; i++) {
 			int sum = 0;
