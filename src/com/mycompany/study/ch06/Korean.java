@@ -17,4 +17,19 @@ public class Korean {
 	Korean(){
 		
 	}
+	static String national = "대한민국";
+	
+	static int staticTest(int a) {
+		return a + 10;
+	}
+	
+	int ttest() {
+		Arithmetic arithmetic = new Arithmetic();
+		arithmetic.aaa(12);
+		
+		return 1;
+	}
+	public void test2 () {
+		Arithmetic.testtt();
+	}
 }

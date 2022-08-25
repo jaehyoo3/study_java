@@ -27,7 +27,11 @@ public class Arithmetic {
 	public void say(int a) {
 	    System.out.println("값은 : " + a);
 	}
-	public void plus(String c, String d) {
-		System.out.println(c + d);
+	public String aaa(int a) {
+		return "";
 	}
+	static void testtt() {
+		System.out.println("헐랭");
+	}
+	
 }
