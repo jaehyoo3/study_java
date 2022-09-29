@@ -10,7 +10,7 @@ public class BoxingMethodExample {
 		
 		System.out.println("rtInt: " + rtInt);
 		
-		Box<String> box2 = Util.<String>boxing("Tony");
+		Box<String> box2 = Util.<String>boxing("1aasd");
 		String rtString = box2.get();
 		
 		System.out.println("rtString: " + rtString);
